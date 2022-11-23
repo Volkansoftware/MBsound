@@ -1,0 +1,15 @@
+.dropdownMenu{
+   position: absolute;
+width: 909px;
+height: 271px;
+left: 0px;
+top: 77px;
+background: #fff;
+backdrop-filter: blur(66px);
+border-radius: 14px;
+
+}
+.item:hover{
+color: red;
+cursor: pointer;
+}

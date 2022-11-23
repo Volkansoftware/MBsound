@@ -1,0 +1,28 @@
+.background{
+    background-color:#000000;
+    height: 87.8vh;
+}
+.desc{
+   flex: 1;
+}
+.imgDiv{
+    flex: 1;
+}
+.imgSrc{
+    width: 85%;
+}
+.button{
+color: black;
+width: 200px;
+height: 50px;
+background: #FF0000;
+border: 1px solid #000000;
+border-radius: 14px;
+transition: 0.5s;
+}
+.button:hover{
+color: white;
+background: #000000;
+border: 1px solid #FF0000;
+
+}
