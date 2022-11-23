@@ -36,7 +36,7 @@ const Header = () => {
         
         </div>
       <div className='flex flex-1 justify-around'>Hakkımızda
-      <div className=''> İletişimmmm</div>
+      <div className=''> İletişim</div>
       </div>
      </div>
     </div>
