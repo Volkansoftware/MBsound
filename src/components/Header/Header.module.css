@@ -1,8 +1,13 @@
 .header{ 
     margin-left: 3vw;
     margin-top: 1.5vw;
-    margin-bottom: 0.7vw;
+    margin-bottom: 0.3vw;
 }
 .logo{
     margin-top: -1vw;
+}
+.productsText{
+    
+    height: 8vh;
+    width: 6vw;
 }

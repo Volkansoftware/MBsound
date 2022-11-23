@@ -1,10 +1,10 @@
 .dropdownMenu{
-   position: absolute;
+position: absolute;
 width: 909px;
 height: 271px;
-left: 0px;
-top: 77px;
-background: #fff;
+left: -25px;
+top: 60px;
+background-color: #fff;
 backdrop-filter: blur(66px);
 border-radius: 14px;
 

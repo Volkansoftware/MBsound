@@ -8,22 +8,25 @@ const Header = () => {
   const [isShown, setIsShown] = useState(false);
  
  
-  function toggleShown()
+  function Open()
   {
-   setIsShown(isShown => !isShown)
-    console.log(isShown)
+   setIsShown(isShown => true)
+    console.log("Open"+isShown)
+  }
+  function Close(){
+    setIsShown(isShown => false)
+    console.log("CLose"+isShown)
   }
   return (
     <div className={`${HeaderCSS.header}`}>
      <div className='flex'>
       <div className='flex flex-1 justify-around'>Anasayfa
-      <div 
-        
-        className='relative' > <p className="cursor-pointer" onClick={toggleShown }
+      <div onMouseOver={Open} onMouseLeave={Close}
+        className={`${HeaderCSS.productsText} relative cursor-pointer`} > <p 
        >Ürünler</p>
        {isShown && (
        <div className = {`${DropdownItemCSS.dropdownMenu}  p-8`}>
-       <DropdownItem/>
+       <DropdownItem menu={isShown} />
  
        </div>
       )}
@@ -31,7 +34,7 @@ const Header = () => {
       
       </div>
       </div>
-      <div className='flex justify-center flex-1'>
+      <div className='flex justify-center flex-1 pb-2'>
         <img className={`${HeaderCSS.logo}`} src={LogoImg} alt="img" />
         
         </div>
