@@ -10,7 +10,41 @@ const Product = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    appendDots: dots => (
+      <div 
+        style={{
+         
+          bottom: 20,
+          display:"flex",
+          justifyContent:"center",
+          alignItems:"center",
+         width: "100vw",
+        }}
+      >
+       
+        <ul style={{ 
+          margin: "10px",
+          width:"65px",
+          
+          }}> {dots} </ul>
+      </div>
+    ),
+    customPaging: i => (
+      <div
+        style={{
+         
+          width: "10px",
+          height: "10px",
+         borderRadius: "50%",
+          color: "purple",
+          backgroundColor: "red",
+     
+        }}
+      >
+       
+      </div>
+    )
   }
   return (
    
