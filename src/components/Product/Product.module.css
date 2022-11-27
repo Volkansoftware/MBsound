@@ -1,6 +1,10 @@
 .background{
     background-color:#000000;
     height: 87.8vh;
+    display: flex !important;  
+}
+.slider{
+    width: 100.5vw;
 }
 .desc{
    flex: 1;

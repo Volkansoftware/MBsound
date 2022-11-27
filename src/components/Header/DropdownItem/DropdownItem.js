@@ -7,10 +7,16 @@ import AksesuarImg from "../../../assets/iconlar/aksesuar.png";
 import KabloImg from "../../../assets/iconlar/kablo.png";
 import AmplifikatorImg from "../../../assets/iconlar/amplifikator.png";
 import  DropdownItemCSS  from "./DropdownItem.module.css";
-const DropdownItem = () => {
-  return (
-    <div>
+const DropdownItem = ({menu}) => {
+  console.log("menu"+menu)
+  {
+  if(menu)
+    {
+     return (
+      <div>
+ 
     <div className = {`flex p-4`}>
+    
     <div className='flex-1 flex justify-around'>
         <div className='flex justify-center items-center '>
              <img  className={`${DropdownItemCSS.logo} mx-2`} src={HoparlerImg} alt="img" />
@@ -27,9 +33,11 @@ const DropdownItem = () => {
         <div>asdasd</div>
     </div>
     </div>
-    <div
-   className='mt-4 border border-sky-500 border-black w-1/2 m-auto '>
-    </div>
+  
+    <div className='mt-4 border border-sky-500 border-black w-1/2 m-auto '>
+
+</div>
+  
     <div className = {`flex p-4 mt-8`}>
     <div className='flex-1 flex justify-around'>
         <div className='flex justify-center items-center '>
@@ -50,8 +58,14 @@ const DropdownItem = () => {
              </div>
     </div>
     </div>
+
+ <div> asdasdas</div>
+
     </div>
-  )
+
+     )
+    }}
+
 }
 
 export default DropdownItem
