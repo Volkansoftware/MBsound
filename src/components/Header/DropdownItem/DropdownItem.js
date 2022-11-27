@@ -9,7 +9,8 @@ import AmplifikatorImg from "../../../assets/iconlar/amplifikator.png";
 import  DropdownItemCSS  from "./DropdownItem.module.css";
 const DropdownItem = ({menu}) => {
   console.log("menu"+menu)
-  { if(menu)
+  {
+  if(menu)
     {
      return (
       <div>
