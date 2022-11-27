@@ -25,7 +25,7 @@ const Header = () => {
         className={`${HeaderCSS.productsText} relative cursor-pointer`} > <p 
        >Ürünler</p>
        {isShown && (
-       <div className = {`${DropdownItemCSS.dropdownMenu}  p-8`}>
+       <div className = {`${DropdownItemCSS.dropdownMenu} z-10  p-8`}>
        <DropdownItem menu={isShown} />
  
        </div>

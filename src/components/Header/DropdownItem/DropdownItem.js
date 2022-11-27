@@ -6,6 +6,7 @@ import KabinImg from "../../../assets/iconlar/kabin.png";
 import AksesuarImg from "../../../assets/iconlar/aksesuar.png";
 import KabloImg from "../../../assets/iconlar/kablo.png";
 import AmplifikatorImg from "../../../assets/iconlar/amplifikator.png";
+import SubwooferImg from "../../../assets/iconlar/Subwoofer.png";
 import  DropdownItemCSS  from "./DropdownItem.module.css";
 const DropdownItem = ({menu}) => {
   console.log("menu"+menu)
@@ -30,7 +31,10 @@ const DropdownItem = ({menu}) => {
              <img  className={`${DropdownItemCSS.logo} mx-2`} src={AmplifikatorImg} alt="img" />
              <div className={`${DropdownItemCSS.item} mx-2`}>Midrange</div>
              </div>
-        <div>asdasd</div>
+             <div className='flex justify-center items-center '>
+             <img  className={`${DropdownItemCSS.logo} mx-2`} src={SubwooferImg} alt="img" />
+             <div className={`${DropdownItemCSS.item} mx-2`}>Subwoofer</div>
+             </div>
     </div>
     </div>
   
@@ -59,7 +63,7 @@ const DropdownItem = ({menu}) => {
     </div>
     </div>
 
- <div> asdasdas</div>
+ 
 
     </div>
 

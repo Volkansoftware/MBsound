@@ -29,4 +29,13 @@ color: white;
 background: #000000;
 border: 1px solid #FF0000;
 }
-
+.backgroundSlider{
+    height: 87.8vh;
+    display: flex !important;
+    flex-direction: row-reverse;
+    background-color:#000000;
+}
+.imgDivTwo{
+    width: 55%;
+    margin-left: 35px
+}
