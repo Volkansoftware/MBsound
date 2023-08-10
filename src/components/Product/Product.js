@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import  ProductCSS  from "./Product.module.css";
 import BossImg from "../../assets/gorseller/gorsel1.png";
 import SlideTwo from "../../assets/gorseller/gorsel2.png";
+import LayerImg from "../../assets/gorseller/layerss.png";
 const Product = () => {
   const settings = {
     dots: true,
@@ -24,7 +25,7 @@ const Product = () => {
       >
        
         <ul style={{ 
-          margin: "10px",
+          margin: "20px",
           width:"65px",
           
           }}> {dots} </ul>
@@ -33,14 +34,14 @@ const Product = () => {
     customPaging: i => (
       <div
         style={{
-          width: "10px",
-          height: "10px",
+          width: "20px",
+          height: "20px",
          borderRadius: "50%",
           color: "purple",
           backgroundColor: "red",
         }}
       >
-       
+
       </div>
     )
   }
@@ -61,8 +62,9 @@ const Product = () => {
              </div> 
          </div>
          
-         <div className={`${ProductCSS.imgDiv} flex items-center ml-44 `}>
-         <div> <img  className={`${ProductCSS.imgSrc}`}  src={BossImg} alt="img" /></div>
+         <div className={`${ProductCSS.imgDiv} relative flex items-center ml-44 `}>
+         <div> <img  className={`${ProductCSS.imgSrc} `}  src={BossImg} alt="img" /></div>
+         
          </div>
      </div>
           <div>

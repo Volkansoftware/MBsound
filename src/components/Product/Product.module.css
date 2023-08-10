@@ -39,3 +39,9 @@ border: 1px solid #FF0000;
     width: 55%;
     margin-left: 35px
 }
+.imgLayer{
+    position: absolute;
+    width: 85vw;
+    left: 0;
+    top: 10%;
+}
